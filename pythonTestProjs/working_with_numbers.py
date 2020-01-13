@@ -13,4 +13,6 @@ num5 = int(num3)
 #print(num5 + num4)
 # print(type(num5))
 num6 = str(num4)
-#print(type(num6))
+# print(type(num6))
+
+#print(help(int))

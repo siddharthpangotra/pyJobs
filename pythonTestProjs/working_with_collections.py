@@ -4,7 +4,7 @@ names_2 = ['shankar', 'musi']
 # print(names[1:3])#includes first index but ignores the second
 # print(names[-2]) #this gives the seconf last value from the list
 # this gives you the list of operations that can be performed on list
-print(dir(names))
+# print(dir(names))
 
 # sorting the values asc(by default)
 # names.sort()
@@ -20,17 +20,17 @@ print(dir(names))
 # print(names)
 
 # adds a list into a list at index 6
-names.insert(6, names_2)
-print('#adding a list at index 6')
-print(names)
+# names.insert(6, names_2)
+# print('#adding a list at index 6')
+# print(names)
 
-# removes the last index
-names.pop()
-print('#removing the last index')
-print(names)
+# # removes the last index
+# names.pop()
+# print('#removing the last index')
+# print(names)
 
-# finding values in list returns bool
-print('jana' in names_2)
+# # finding values in list returns bool
+# print('jana' in names_2)
 
 # coverting list to a string
 names3 = '-'.join(names)
@@ -40,6 +40,12 @@ print(names3)
 list1 = names3.split('-')
 print(list1)
 tuple1 = ('tup1', 'tup2', 'tup3')
-print(tuple1)
-tuple2 = ('tup4', 'tup5')
-tuple2[0] = 'tup2'
+# print(dir(tuple1))
+# print(tuple1)
+# tuple2 = ('tup3', 'tup1')
+# tuple2[0] = 'tup2'
+
+#Sets in python
+set1 = {'set1', 'set2', 'set3'}
+set2 = {'set1', 'set3'}
+print(set1.intersection(set2))
